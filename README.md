@@ -1,2 +1,2 @@
-# Password-Generator
-created a password generator by using python.
+# EMI calculator
+created a EMI calculator.
