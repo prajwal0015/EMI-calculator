@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMi Calculator</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="glass-container">
+      <div class="main-container">
+        <form action="#">
+          <h1>EMI Calculator</h1>
+
+          <div class="Loan-Amount">
+            <label for="Loan_Amount">Loan Amount :</label>
+            <input
+              type="number"
+              placeholder="Enter Loan Amount"
+              id="Loan_Amount"
+            />
+          </div>
+
+          <div class="Interest-Rate">
+            <label for="Interest_Rate">Interest Rate : </label>
+            <input
+              type="text"
+              placeholder="Enter Interest Rate"
+              id="Interest_Rate"
+            />
+          </div>
+
+          <div class="months-to-pay">
+            <label for="months_to_pay">Months to pay :</label>
+            <input
+              type="text"
+              placeholder="Enter Month to Pay"
+              id="Months_to_pay"
+            />
+          </div>
+          <div class="button">
+            <button type="button" id="Calculate">Calculate</button>
+            <button type="reset" value="reset" id="Reset">Reset</button>
+          </div>
+          <div class="pra">
+            <p>Your Monthly Payment is : <span id="result"></span></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
